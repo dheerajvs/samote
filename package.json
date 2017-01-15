@@ -1,0 +1,19 @@
+{
+  "name": "samote",
+  "version": "1.0.0",
+  "description": "Samsung SmartTV 2016 remote",
+  "main": "index.js",
+  "repository": "https://github.com/dheerajvs/samote.git",
+  "author": "Dheeraj Vepakomma",
+  "license": "MIT",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "dependencies": {
+    "wake_on_lan": "^0.0.4",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1"
+  }
+}
